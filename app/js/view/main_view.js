@@ -10,8 +10,9 @@ export default class MainView extends View {
 
   template() {
     var string = `
-      <gaia-header>
+      <gaia-header class="hidden main-header">
         <h1>Customizer Launcher</h1>
+        <a id="help-button"><i data-icon="help"></i></a>
       </gaia-header>
       <fxos-dev-mode-dialog></fxos-dev-mode-dialog>`;
     return string;

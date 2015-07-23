@@ -22,5 +22,12 @@ export default class MainController extends Controller {
     this.dialog.addEventListener('enabled', function() {
       this.listController.main();
     }.bind(this));
+
+    this.helpButton = document.getElementById('help-button');
+
+    // Show help screen on click of help icon
+    this.helpButton.addEventListener('click', function() {
+      this.listController.helpController.show();
+    }.bind(this));
   }
 }

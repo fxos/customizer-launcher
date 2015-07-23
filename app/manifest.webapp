@@ -20,5 +20,6 @@
     "desktop-notification": {
       "description": "For sending achievements notifications to Gaia::System"
     }
-  }
+  },
+  "orientation": "default"
 }
